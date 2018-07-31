@@ -3,11 +3,11 @@ A web crawler that searches the list of Highest Rated IMDb "Top 1000" Titles by 
 
 Functions:
 
-crawl(url)
+crawl(url):
 Takes as input the url string to crawl. By default it is the first page of Highest Rated IMDb "Top 1000" Titles.
 Crawls the entire list and builds a dictionary of mapping keywords to movie titles.
 
-search(query)
+search(query):
 Takes as input the query string to search.
 Will index the crawl results for each word in the query. Returns a list of relevant movie titles.
 
